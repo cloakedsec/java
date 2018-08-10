@@ -1,3 +1,6 @@
+//------ This application was built using Java Swing Window Builder by Ahmad Faraz -------//
+
+
 package calculator;
 
 import java.awt.EventQueue;
