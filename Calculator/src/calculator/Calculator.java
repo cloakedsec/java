@@ -332,10 +332,7 @@ public class Calculator {
 				
 				JButton btnPM = new JButton("\u00B1");
 				btnPM.addActionListener(new ActionListener() {
-					public void actionPerformed(ActionEvent e) {
-						double ops = Double.parseDouble(String.valueOf(txtDisplay.getText()));
-						ops = ops * (-1);
-						txtDisplay.setText(String.valueOf(ops));
+					//------This button needs work-----//
 					}
 				});
 				btnPM.setFont(new Font("Tahoma", Font.BOLD, 20));
